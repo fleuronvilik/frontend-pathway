@@ -25,7 +25,11 @@
   <body>
     <h1>Video embed</h1>
 
-    <video>
+    <video controls muted width="320" height="240">
+      <source src="media/video.mp4" type="video/mp4"/>
+      <source src="media/video.webm" type="video/webm"/>
+      <track src="media/subtitles_en.vtt" type="subtitles" srclang="en"/>
+      <p>Video not supported. Here is a <a href="media/video.mp4">link to download it</a> (format MP4).</p>
     </video>
   </body>
 
